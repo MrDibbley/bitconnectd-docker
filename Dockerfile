@@ -18,3 +18,5 @@ COPY bitconnectd /usr/bin/bitconnectd
 VOLUME ["/root/.bitconnect"]
 
 EXPOSE 9239 9240
+
+CMD bitconnectd
